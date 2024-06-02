@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark & Light Assignment</title>
+    <link rel="stylesheet" href="https://use.typekit.net/your-kit-id.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <main>
+        <!-- upper container section -->
+        <div class="upper__container">
+            <!-- navbar section -->
+            <div class="upper__container__navbar">
+                <div class="upper__container__navbar__left">
+                    <img src="./assets/Logo.png" class="upper__container__navbar__left__logo hide__on__small"
+                        alt="website-logo">
+                    <img src="./assets/Hamburger.png"
+                        class="upper__container__navbar__left__logo__hamburger show__on__small" id="upper__container__navbar__left__hamburger" alt="Hamburger-logo">
+                </div>
+                <div class="upper__container__navbar__right">
+                    <div class="upper__container__navbar__right__item">
+                        <ul>
+                            <li class="upper__container__navbar__right__item__home hide__on__small">Home</li>
+                            <li class="upper__container__navbar__right__item__explore hide__on__small">Explore</li>
+                            <li class="upper__container__navbar__right__item__contact hide__on__small">Contact Us</li>
+                            <img src="./assets/Logo.png" class="upper__container__navbar__right__logo show__on__small"
+                                alt="website-logo">
+                            <li>
+                                <label class="upper__container__navbar__right__toggle">
+                                    <input class="upper__container__navbar__right__item__input"
+                                        id="upper__container__navbar__right__toggle__input" type="checkbox">
+                                    <span class="slider"></span>
+                                    <img src="./assets/Sun.png" class="upper__container__navbar__right__item__light"
+                                        alt="light-mode">
+                                    <img src="./assets/dark-mode.png"
+                                        class="upper__container__navbar__right__item__dark" alt="dark-mode">
+                                </label>
+                            </li>
+                            <li class="hide__on__small">
+                                <img src="./assets/Search.png" class="upper__container__navbar__right__item__search"
+                                    id="upper__container__navbar__right__item__search" alt="search-icon">
+                            </li>
+                            <li>
+                                <img src="./assets/Cart.png" id="upper__container__navbar__right__item__cart"
+                                    class="upper__container__navbar__right__item__cart" alt="cart-icon">
+                            </li>
+                            <li class="hide__on__small">
+                                <button class="upper__container__navbar__right__item__login">Login</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Input bar -->
+            <div class="upper__container__input show__on__small">
+                <div class="upper__container__input__container">
+                    <input type="text" placeholder="Search" id="upper__container__input__search" disabled>
+                    <img src="./assets/Search.png" alt="search-icon">
+                </div>
+            </div>
+
+            <!-- middle section -->
+            <div class="upper__container__middle">
+                <h1 class="upper__container__middle__title">Let’s Dive in</h1>
+                <h1 class="upper__container__middle__title"><span>Music</span> World</h1>
+                <p class="upper__container__middle__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc pharetra, phasellus imperdiet fringilla turpis lectus risus erat. Commodo purus, eu sed
+                    suspendisse fermentum </p>
+                <div class="upper__container__middle__btn">
+                    <button class="upper__container__middle__btn__shopnow">Shop now</button>
+                    <button class="upper__container__middle__btn__addtocart">
+                        <img src="./assets/btncart.png" alt="shop-now">
+                        <span>Add to cart</span>
+                    </button>
+                </div>
+            </div>
+            <!-- bottom section -->
+            <div class="upper__container__bottom">
+                <div class="upper__container__bottom__left">
+                    <img src="./assets/Scrl down.png" id="upper__container__bottom__left__scrollbtn" alt="scroll--btn">
+                </div>
+                <div class="upper__container__bottom__right">
+                    <div class="upper__container__bottom__right__item">
+                        <div class="upper__container__bottom__right__item__image">
+                            <img src="./assets/headphone.png" alt="headphone">
+                        </div>
+                        <div class="upper__container__bottom__right__item__info">
+                            <p class="upper__container__bottom__right__item__info__name">Wireless Headphones</p>
+                            <p class="upper__container__bottom__right__item__info__price"><span
+                                    class="new__price">$120</span><span class="old__price"><s>$185</s></span></p>
+                        </div>
+                    </div>
+                    <div class="upper__container__bottom__right__item">
+                        <div class="upper__container__bottom__right__item__image">
+                            <img src="./assets/headphone.png" alt="headphone">
+                        </div>
+                        <div class="upper__container__bottom__right__item__info">
+                            <p class="upper__container__bottom__right__item__info__name">Wireless Headphones</p>
+                            <p class="upper__container__bottom__right__item__info__price"><span
+                                    class="new__price">$120</span><span class="old__price"><s>$185</s></span></p>
+                        </div>
+                    </div>
+                    <div class="upper__container__bottom__right__item">
+                        <div class="upper__container__bupper__container__bottom__rightottom__right__item__image">
+                            <img src="./assets/headphone.png" alt="headphone">
+                        </div>
+                        <div class="upper__container__bottom__right__item__info">
+                            <p class="upper__container__bottom__right__item__info__name">Wireless Headphones</p>
+                            <p class="upper__container__bottom__right__item__info__price"><span
+                                    class="new__price">$120</span><span class="old__price"><s>$185</s></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Popular trend section -->
+        <div class="popular__trend__container">
+            <h1 class="popular__trend__container__title">Popular Trends</h1>
+            <div class="popular__trend__container__items">
+                <div class="popular__trend__container__item">
+                    <div class="popular__trend__container__item__top">
+                        <img src="./assets/Headphones.png" alt="headphone">
+                    </div>
+                    <div class="popular__trend__container__item__middle">
+                        <p>Wireless Headphones</p>
+                        <p>with Dolby Surround Sound</p>
+                        <ul>
+                            <li>Truely Wireless</li>
+                            <li>Dolby Surround Sound</li>
+                            <li>13hrs of playback time</li>
+                            <li>Made in Germany</li>
+                        </ul>
+                        <p class="price">$145</p>
+                    </div>
+                    <div class="popular__trend__container__item__bottom">
+                        <button class="popular__trend__container__item__bottom__addtocart">
+                            <img src="./assets/btncart.png" alt="add-to-cart"> Add to cart
+                        </button>
+                        <button class="popular__trend__container__item__bottom__buynow">Buy now</button>
+                    </div>
+                </div>
+                <div class="popular__trend__container__item">
+                    <div class="popular__trend__container__item__top">
+                        <img src="./assets/Headphones.png" alt="headphone">
+                    </div>
+                    <div class="popular__trend__container__item__middle">
+                        <p>Wireless Headphones</p>
+                        <p>with Dolby Surround Sound</p>
+                        <ul>
+                            <li>Truely Wireless</li>
+                            <li>Dolby Surround Sound</li>
+                            <li>13hrs of playback time</li>
+                            <li>Made in Germany</li>
+                        </ul>
+                        <p class="price">$145</p>
+                    </div>
+                    <div class="popular__trend__container__item__bottom">
+                        <button class="popular__trend__container__item__bottom__addtocart">
+                            <img src="./assets/btncart.png" alt="add-to-cart"> Add to cart
+                        </button>
+                        <button class="popular__trend__container__item__bottom__buynow">Buy now</button>
+                    </div>
+                </div>
+                <div class="popular__trend__container__item">
+                    <div class="popular__trend__container__item__top">
+                        <img src="./assets/Headphones.png" alt="headphone">
+                    </div>
+                    <div class="popular__trend__container__item__middle">
+                        <p>Wireless Headphones</p>
+                        <p>with Dolby Surround Sound</p>
+                        <ul>
+                            <li>Truely Wireless</li>
+                            <li>Dolby Surround Sound</li>
+                            <li>13hrs of playback time</li>
+                            <li>Made in Germany</li>
+                        </ul>
+                        <p class="price">$145</p>
+                    </div>
+                    <div class="popular__trend__container__item__bottom">
+                        <button class="popular__trend__container__item__bottom__addtocart">
+                            <img src="./assets/btncart.png" alt="add-to-cart"> Add to cart
+                        </button>
+                        <button class="popular__trend__container__item__bottom__buynow">Buy now</button>
+                    </div>
+                </div>
+                <div class="popular__trend__container__item">
+                    <div class="popular__trend__container__item__top">
+                        <img src="./assets/Headphones.png" alt="headphone">
+                    </div>
+                    <div class="popular__trend__container__item__middle">
+                        <p>Wireless Headphones</p>
+                        <p>with Dolby Surround Sound</p>
+                        <ul>
+                            <li>Truely Wireless</li>
+                            <li>Dolby Surround Sound</li>
+                            <li>13hrs of playback time</li>
+                            <li>Made in Germany</li>
+                        </ul>
+                        <p class="price">$145</p>
+                    </div>
+                    <div class="popular__trend__container__item__bottom">
+                        <button class="popular__trend__container__item__bottom__addtocart">
+                            <img src="./assets/btncart.png" alt="add-to-cart"> Add to cart
+                        </button>
+                        <button class="popular__trend__container__item__bottom__buynow">Buy now</button>
+                    </div>
+                </div>
+                <div class="popular__trend__container__item">
+                    <div class="popular__trend__container__item__top">
+                        <img src="./assets/Headphones.png" alt="headphone">
+                    </div>
+                    <div class="popular__trend__container__item__middle">
+                        <p>Wireless Headphones</p>
+                        <p>with Dolby Surround Sound</p>
+                        <ul>
+                            <li>Truely Wireless</li>
+                            <li>Dolby Surround Sound</li>
+                            <li>13hrs of playback time</li>
+                            <li>Made in Germany</li>
+                        </ul>
+                        <p class="price">$145</p>
+                    </div>
+                    <div class="popular__trend__container__item__bottom">
+                        <button class="popular__trend__container__item__bottom__addtocart">
+                            <img src="./assets/btncart.png" alt="add-to-cart"> Add to cart
+                        </button>
+                        <button class="popular__trend__container__item__bottom__buynow">Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Musify section -->
+        <div class="musify__container">
+            <h1>Why buy directly from Musify?</h1>
+            <div class="musify__container__items">
+                <div class="musify__container__item">
+                    <img src="./assets/delivert.png" alt="delivery">
+                    <span>Free delivery</span>
+                </div>
+                <div class="musify__container__item">
+                    <img src="./assets/verified.png" alt="delivery">
+                    <span>Verified Products</span>
+                </div>
+                <div class="musify__container__item">
+                    <img src="./assets/customer.png" alt="delivery">
+                    <span>24/7 Customer support</span>
+                </div>
+            </div>
+        </div>
+        <div class="offer__container">
+            <div class="offer__container__left">
+                <div class="offer__container__left__title show__on__small">
+                    <p>Exclusive Offer</p>
+                </div>
+                <img src="./assets/unsplash_bWZAPKm0zZE.png" class="offer__container__left__image" alt="offer">
+                <div class="offer__container__left__circle">
+                    <p>20%</p>
+                    <p>off</p>
+                </div>
+            </div>
+            <div class="offer__container__right">
+                <div class="offer__container__right__top hide__on__small">
+                    <p>Exclusive Offer</p>
+                </div>
+                <div class="offer__container__right__bottom">
+                    <p>Offer ends in</p>
+                    <div class="offer__container__right__bottom__time">
+                        <div class="time__value">
+                            <div>02</div>
+                            <div>38</div>
+                            <div>49</div>
+                        </div>
+                        <div class="time__text">
+                            <div>Hour</div>
+                            <div>Mins</div>
+                            <div>Secs</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Accessories Section -->
+        <div class="accessories__container">
+            <h1 class="accessories__container__title">Try our other Accessories</h1>
+            <div class="accessories__container__items">
+                <div class="accessories__container__items__top">
+                    <div class="accessories__container__item">
+                        <img src="./assets/Watch.png" alt="watch">
+                    </div>
+                    <div class="accessories__container__item">
+                        <img src="./assets/Siri.png" alt="watch">
+                    </div>
+                </div>
+                <div class="accessories__container__items__bottom">
+                    <div class="accessories__container__item">
+                        <img src="./assets/Soundbar.png" alt="watch">
+                    </div>
+                    <div class="accessories__container__item">
+                        <img src="./assets/home.png" alt="watch">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- New Arrivals section -->
+        <div class="popular__trend__container">
+            <h1 class="popular__trend__container__title">New Arrivals</h1>
+            <div class="popular__trend__container__items">
+                <div class="popular__trend__container__item popular__trend__container__item__color ">
+                    <div class="popular__trend__container__item__top">
+                        <img src="./assets/unsplash_GI6L2pkiZgQ.png" alt="headphone">
+                    </div>
+                    <div class="popular__trend__container__item__middle">
+                        <p>Wireless Headphones</p>
+                        <p>with Dolby Surround Sound</p>
+                        <ul>
+                            <li>Truely Wireless</li>
+                            <li>Dolby Surround Sound</li>
+                            <li>13hrs of playback time</li>
+                            <li>Made in Germany</li>
+                        </ul>
+                        <p class="price">$79.20</p>
+                    </div>
+                    <div class="popular__trend__container__item__bottom">
+                        <button class="popular__trend__container__item__bottom__addtocart">
+                            <img src="./assets/btncart.png" alt="add-to-cart"> Add to cart
+                        </button>
+                        <button class="popular__trend__container__item__bottom__buynow">Buy now</button>
+                    </div>
+                </div>
+                <div class="popular__trend__container__item popular__trend__container__item__color">
+                    <div class="popular__trend__container__item__top">
+                        <img src="./assets/unsplash_Zam8TvEgN5o.png" alt="headphone">
+                    </div>
+                    <div class="popular__trend__container__item__middle">
+                        <p>Wireless Headphones</p>
+                        <p>with Dolby Surround Sound</p>
+                        <ul>
+                            <li>Truely Wireless</li>
+                            <li>Dolby Surround Sound</li>
+                            <li>13hrs of playback time</li>
+                            <li>Made in Germany</li>
+                        </ul>
+                        <p class="price">$122.00</p>
+                    </div>
+                    <div class="popular__trend__container__item__bottom">
+                        <button class="popular__trend__container__item__bottom__addtocart">
+                            <img src="./assets/btncart.png" alt="add-to-cart"> Add to cart
+                        </button>
+                        <button class="popular__trend__container__item__bottom__buynow">Buy now</button>
+                    </div>
+                </div>
+                <div class="popular__trend__container__item popular__trend__container__item__color">
+                    <div class="popular__trend__container__item__top">
+                        <img src="./assets/unsplash_GI6L2pkiZgQ.png" alt="headphone">
+                    </div>
+                    <div class="popular__trend__container__item__middle">
+                        <p>Wireless Headphones</p>
+                        <p>with Dolby Surround Sound</p>
+                        <ul>
+                            <li>Truely Wireless</li>
+                            <li>Dolby Surround Sound</li>
+                            <li>13hrs of playback time</li>
+                            <li>Made in Germany</li>
+                        </ul>
+                        <p class="price">$149.50</p>
+                    </div>
+                    <div class="popular__trend__container__item__bottom">
+                        <button class="popular__trend__container__item__bottom__addtocart">
+                            <img src="./assets/btncart.png" alt="add-to-cart"> Add to cart
+                        </button>
+                        <button class="popular__trend__container__item__bottom__buynow">Buy now</button>
+                    </div>
+                </div>
+                <div class="popular__trend__container__item popular__trend__container__item__color">
+                    <div class="popular__trend__container__item__top">
+                        <img src="./assets/Headphones.png" alt="headphone">
+                    </div>
+                    <div class="popular__trend__container__item__middle">
+                        <p>Wireless Headphones</p>
+                        <p>with Dolby Surround Sound</p>
+                        <ul>
+                            <li>Truely Wireless</li>
+                            <li>Dolby Surround Sound</li>
+                            <li>13hrs of playback time</li>
+                            <li>Made in Germany</li>
+                        </ul>
+                        <p class="price">$145</p>
+                    </div>
+                    <div class="popular__trend__container__item__bottom">
+                        <button class="popular__trend__container__item__bottom__addtocart">
+                            <img src="./assets/btncart.png" alt="add-to-cart"> Add to cart
+                        </button>
+                        <button class="popular__trend__container__item__bottom__buynow">Buy now</button>
+                    </div>
+                </div>
+                <div class="popular__trend__container__item popular__trend__container__item__color">
+                    <div class="popular__trend__container__item__top">
+                        <img src="./assets/Headphones.png" alt="headphone">
+                    </div>
+                    <div class="popular__trend__container__item__middle">
+                        <p>Wireless Headphones</p>
+                        <p>with Dolby Surround Sound</p>
+                        <ul>
+                            <li>Truely Wireless</li>
+                            <li>Dolby Surround Sound</li>
+                            <li>13hrs of playback time</li>
+                            <li>Made in Germany</li>
+                        </ul>
+                        <p class="price">$145</p>
+                    </div>
+                    <div class="popular__trend__container__item__bottom">
+                        <button class="popular__trend__container__item__bottom__addtocart">
+                            <img src="./assets/btncart.png" alt="add-to-cart"> Add to cart
+                        </button>
+                        <button class="popular__trend__container__item__bottom__buynow">Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- QR Scan -->
+        <div class="qr__container">
+            <div class="qr__container__left">
+                <div class="qr__container__left__image"><img src="./assets/Qr code 1.png" alt="qr-scan"></div>
+            </div>
+            <div class="qr__container__right">
+                <div class="qr__container__right__top">
+                    <h1>Scan QR code for more</h1>
+                    <p>Now you can download the official musify app.</p>
+                </div>
+                <div class="qr__container__right__bottom">
+                    <div><img src="./assets/play-store-logo-33874 1.png" alt="play-store"></div>
+                    <div><img src="./assets/app-store-png-logo-33116 1.png" alt="app-store"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer section -->
+        <div class="footer__container">
+            <div class="footer__container__items">
+                <div class="footer__container__item">
+                    <img src="./assets/Logo.png" class="footer__container__item__logo" alt="website-logo">
+                </div>
+                <div class="footer__container__item">
+                    <p class="footer__container__item__title">Shop</p>
+                    <ul>
+                        <li>Wireles</li>
+                        <li>Headphone</li>
+                        <li>Gaming</li>
+                        <li>Speakers</li>
+                        <li>Soundbars</li>
+                        <li>Professional</li>
+                        <li>Offer Zone</li>
+                    </ul>
+                    <p class="footer__container__item__title title__name ">Country</p>
+                    <p class="footer__container__item__title title__name">India</p>
+                </div>
+                <div class="footer__container__item">
+                    <p class="footer__container__item__title">Support</p>
+                    <ul>
+                        <li>Order Status</li>
+                        <li>Bulk Purchase Program
+                        </li>
+                        <li>Buy Authentic
+                        </li>
+                        <li>Product Support
+                        </li>
+                        <li>Shipping & Delivery policy
+                        </li>
+                        <li>Cancellation & Refund Policy
+                        </li>
+                        <li>Service Center
+                        </li>
+                        <li>Brand Stores
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__container__item">
+                    <p class="footer__container__item__title">About us</p>
+                    <ul>
+                        <li>Harman Corporate
+                        </li>
+                        <li>Privacy Policy
+
+                        </li>
+                        <li>Terms of Use
+
+                        </li>
+                        <li>Why Buy Direct
+
+                        </li>
+                        <li>JBL Sound Partners
+                        </li>
+                    </ul>
+                    <p class="footer__container__item__title title__name">Contact Us</p>
+                    <ul>
+                        <li>1800-102-0525
+
+                        </li>
+                        <li>Mon-Sun- 10AM-7PM </li>
+
+                    </ul>
+                    <p class="footer__container__item__title title__name">Manufactured by:
+                    </p>
+                    <ul>
+                        <li>Harman International Industries, Inc.
+                        </li>
+                        <li>8500, Balboa Blvd, </li>
+
+                        <li>Northridge, CA 91329,USA</li>
+                    </ul>
+                    <p class="footer__container__item__title title__name">Share on Social Media
+                    </p>
+                    <ul class="footer__container__item__social">
+                        <li><img src="./assets/google.png" alt="google-icon"></li>
+                        <li><img src="./assets/instagram.png" alt="instagram"></li>
+                        <li><img src="./assets/twitter.png" alt="twitter"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__container__newsletter">
+                <p>Subscribe to our Newsletter</p>
+                <div class="footer__container__newsletter__item">
+                    <input type="text" placeholder="Enter your mail id"
+                        class="footer__container__newsletter__item__input">
+                    <button class="footer__container__newsletter__item__subscribe">Subscribe</button>
+                </div>
+            </div>
+            <p class="footer__container__copyright">© 2022.Musify.All Rights Reserved</p>
+        </div>
+    </main>
+</body>
+
+</html>
