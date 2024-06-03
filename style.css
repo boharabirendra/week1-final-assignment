@@ -623,7 +623,7 @@ body {
 
 .footer__container__item__logo {
     position: absolute;
-    left: 99px;
+    left: 93px;
     top: 166px;
 }
 
@@ -670,7 +670,8 @@ body {
 
 .footer__container__newsletter {
     position: absolute;
-    top: 482px;
+    top: 451px;
+    left: 115px;
 }
 
 .footer__container__newsletter p {
