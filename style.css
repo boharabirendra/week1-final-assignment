@@ -9,7 +9,7 @@
 body {
     font-family: 'proxima-nova', sans-serif;
     background-color: #FAFAFA;
-    /* padding: 0 40px; */
+    padding: 0 40px;
     overflow-x: hidden;
 }
 
@@ -45,8 +45,6 @@ body {
     background-size: contain;
     overflow: hidden;
     margin-bottom: 100px;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 
 
@@ -312,8 +310,6 @@ body {
     overflow: hidden;
     width: 100%;
     margin-bottom: 100px;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 
 .popular__trend__container__items {
@@ -425,8 +421,6 @@ body {
     color: #FFFFFF;
     margin: auto;
     margin-bottom: 100px;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 
 .musify__container h1 {
@@ -452,8 +446,6 @@ body {
     gap: 180px;
     flex-wrap: wrap;
     justify-content: center;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 
 .offer__container__left {
@@ -534,8 +526,6 @@ body {
 .accessories__container {
     margin-top: 100px;
     margin-bottom: 100px;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 
 .accessories__container__title {
@@ -576,8 +566,6 @@ body {
     border: 1px solid #35589A;
     background: #370665;
     z-index: 10;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 
 /* QR scan style */
@@ -628,7 +616,9 @@ body {
     position: relative;
     margin-top: 80px;
     background-color: #370665;
-    padding: 60px 10px 25px 10px;
+    padding: 60px 10px 10px 10px;
+    border-radius: 10px;
+    padding-bottom: 25px;
 }
 
 .footer__container__item__logo {
