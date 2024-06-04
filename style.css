@@ -110,7 +110,7 @@ h1 {
 body,
 button {
     font-family: "proxima_nova_rgregular", Helvetica, Arial, sans-serif;
-    background-color: #FAFAFA;
+    background-color: #FFF;
     overflow-x: hidden;
 }
 
@@ -841,13 +841,13 @@ body.dark__mode ul li {
 .accessories__container {
     margin-top: 100px;
     margin-bottom: 100px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .accessories__container__title {
     text-align: center;
-    font-size: 30px;
+    font-size: 65px;
     font-weight: 700;
     margin-bottom: 100px;
 }
@@ -856,7 +856,8 @@ body.dark__mode ul li {
 
 .accessories__container__item {
     border-radius: 25px;
-    max-width: 320px;
+    max-width: 720px;
+    max-height: 400px;
     border: 2px solid #FFF;
     overflow: hidden;
 }
