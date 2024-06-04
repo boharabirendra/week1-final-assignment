@@ -341,7 +341,6 @@ body.dark__mode ul li {
     font-size: var(--content-font-size);
     font-style: normal;
     font-weight: 250;
-    line-height: 40px;
     letter-spacing: 0.64px;
     padding-bottom: 58px;
 }
@@ -371,7 +370,6 @@ body.dark__mode ul li {
     border-radius: 30px;
     font-size: 24px;
     font-weight: 700;
-    line-height: 30px;
     color: var(--primary-color);
     display: flex;
     align-items: center;
