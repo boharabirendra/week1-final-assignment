@@ -1014,7 +1014,7 @@ body.dark__mode ul li {
 .footer__container__newsletter__item__input {
     border: 2px solid #F14A16;
     color: #FFFFFF80;
-    padding: 15px 40px 15px 40px;
+    padding: 15px 15px 15px 15px;
     border-radius: 20px;
     background-color: transparent;
     font-size: 24px;
@@ -1025,7 +1025,7 @@ body.dark__mode ul li {
     background-color: #F14A16;
     border-radius: 20px;
     border: none;
-    padding: 15px 50px;
+    padding: 18px 50px;
     font-weight: 700;
     color: white;
     font-size: 24px;
@@ -1337,7 +1337,11 @@ body.dark__mode ul li {
     }
 
     .footer__container__newsletter p {
-        font-size: 29px;
+        font-size: 24px;
+    }
+
+    .for__tab{
+        display: none;
     }
 
 }
@@ -1393,12 +1397,14 @@ body.dark__mode ul li {
 
     .tab__input {
         width: 100%;
-        padding: 15px 80px 15px 25px;
         border-radius: 20px;
         border: 2px solid #F14A16;
         background: transparent;
         font-size: 24px;
+        margin-top: 20px;
+        max-width: 700px;
         color: #FFF;
+        padding: 16px 35px 16px 20px;
     }
 
     .tab__sub {
