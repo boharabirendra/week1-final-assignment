@@ -35,6 +35,10 @@ h1 {
     box-sizing: border-box;
 }
 
+button{
+    cursor: pointer;
+}
+
 
 /* Variable declaration */
 /* style for light mode */
@@ -53,7 +57,7 @@ h1 {
     --card-heading-font-size: 26px;
     --card-font-weight: 400;
     --card-content-font-size: 18px;
-    --card-line-height: 36px;
+    --card-line-height: 26px;
     --card-color-white: #FFF;
     --card-color-black: black;
 
@@ -62,7 +66,7 @@ h1 {
     --btn-border-radius: 20px;
     /* Popular trends section variable */
     --popular-card-width: 376px;
-    --popular-card-height: 696px;
+    --popular-card-height: 662px;
     --popular-card-border: 1px solid #FFF;
     --popular-card-heading-padding-bottom: 8px;
     --popular-card-background: linear-gradient(164deg, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.10) 100.82%);
@@ -514,12 +518,18 @@ body.dark__mode ul li {
 .card {
     min-width: var(--popular-card-width);
     height: var(--popular-card-height);
-    box-shadow: var(--popular-card-box-shadow);
     border-radius: var(--card-border-radius);
     padding-bottom: var(--popular-card-heading-padding-bottom);
     line-height: var(--card-line-height);
     overflow: hidden;
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.25);
 }
+
+.card__bottom ul {
+    padding-top: 10px;
+    padding-left: 17px;
+}
+
 
 .card__top {
     height: 345px;
@@ -615,7 +625,7 @@ body.dark__mode ul li {
 
 .text__color p,
 .text__color ul li {
-    color: black;
+    color: #FFF;
 }
 
 .popular__trend__container__item__middle p {
@@ -685,6 +695,19 @@ body.dark__mode ul li {
     height: 20px;
 }
 
+.popular__card{
+    background: #282828;
+}
+
+.dark__mode .popular__card {
+    background: linear-gradient(164deg, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.10) 100.82%);
+}
+
+
+.dark__mode .arrival__card {
+    border: 5px solid #35589A;
+    background: #370665;
+}
 
 /* Musify section */
 .musify__container {
@@ -1340,7 +1363,7 @@ body.dark__mode ul li {
         font-size: 24px;
     }
 
-    .for__tab{
+    .for__tab {
         display: none;
     }
 
